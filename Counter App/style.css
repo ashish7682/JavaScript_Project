@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: rgba(7, 37, 188, 0.272);
+  text-align: center;
+}
+.container {
+  height: 340px;
+  width: 50%;
+  position: relative;
+  padding: 20px;
+  box-shadow: rgba(10, 0, 97, 0.15) 0px 48px 100px 0px;
+  border-radius: 10px;
+}
+
+.contains {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.contains h1 {
+  color: black;
+  font-size: 50px;
+}
+.contains #number {
+  font-size: 50px;
+}
+.btn {
+  background-color: red;
+  color: white;
+}
+.btn-ope {
+  background-color: yellow;
+  color: black;
+}
+button {
+  padding: 8px;
+  border-radius: 4px;
+  margin: 9px;
+}
+.btn-ope:hover {
+  background-color: cyan;
+}
+.btn:hover{
+    background-color: blue;
+}
