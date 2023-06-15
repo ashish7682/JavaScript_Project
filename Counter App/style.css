@@ -12,11 +12,11 @@ body {
   text-align: center;
 }
 .container {
-  height: 340px;
+  height: 330px;
   width: 50%;
   position: relative;
-  padding: 20px;
-  box-shadow: rgba(10, 0, 97, 0.15) 0px 48px 100px 0px;
+  padding:30px 30px;
+  box-shadow: 0 0 40px 0 rgba(0,0,0,.45);
   border-radius: 10px;
 }
 
@@ -26,6 +26,7 @@ body {
   gap: 30px;
 }
 .contains h1 {
+
   color: black;
   font-size: 50px;
 }
@@ -46,8 +47,36 @@ button {
   margin: 9px;
 }
 .btn-ope:hover {
-  background-color: cyan;
+  background-color:chartreuse;
 }
 .btn:hover{
-    background-color: blue;
+    background-color: red;
+}
+@media screen and (max-width:520px) {
+  .contains h1 {
+    padding-top: 20px;
+    font-size: 30px;
+  }
+  .contains #number {
+    font-size: 30px;
+  }
+  
+  button {
+    padding: 4px;
+    border-radius: 3px;
+    margin: 5px;
+  }
+  .container {
+    height: 300px;
+    width:70%;
+   
+  }
+  
+}
+@media screen and (max-width:385px) {
+  .container {
+    height: 290px;
+    width:75%;
+   
+  }
 }
