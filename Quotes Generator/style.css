@@ -50,3 +50,23 @@ button {
   border: 1px solid transparent;
   border-radius: 12px;
 }
+button:hover
+{
+  background-color:#67D865;
+  color: #000;
+}
+
+@media screen and (max-width:320px) {
+  .container {
+    text-align: center;
+    width: 300px;
+  }
+  .flexbox {
+    text-align: center;
+    width: 300px;
+  }
+  h2
+ {
+  font-size: 20px;
+ }
+}
